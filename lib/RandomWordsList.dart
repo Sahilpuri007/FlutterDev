@@ -2,6 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
+/**
+ * RandomWords list generator class
+ */
 class RandomWordsState extends State<RandomWords> {
   @override
   Widget build(BuildContext context) {

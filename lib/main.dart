@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       color: Colors.red,
       title: 'Startup Name Generator',
+      //Call to the class which generates list view
       home: RandomWords(),
     );
   }
