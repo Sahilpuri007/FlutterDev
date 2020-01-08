@@ -8,15 +8,16 @@ import 'RandomWordsList.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      color: Colors.red,
       title: 'Startup Name Generator',
+      theme: ThemeData(
+        // Add the 3 lines from here...
+        primaryColor: Colors.white,
+      ),
       //Call to the class which generates list view
       home: RandomWords(),
     );
   }
 }
-
