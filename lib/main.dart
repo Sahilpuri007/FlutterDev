@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'RandomWordsList.dart';
+import 'randomwordlistapp/RandomWordsList.dart';
 
 void main() => runApp(MyApp());
 
